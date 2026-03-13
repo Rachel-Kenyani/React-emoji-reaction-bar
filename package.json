@@ -1,0 +1,64 @@
+{
+  "name": "@kenyani/react-emoji-reaction-bar",
+  "private": false,
+  "version": "0.0.2",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "bundle": "tsup src/index.ts"
+  },
+  "dependencies": {
+    "framer-motion": "^12.36.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@eslint/js": "^9.39.4",
+    "@rolldown/plugin-babel": "^0.2.0",
+    "@types/babel__core": "^7.20.5",
+    "@types/node": "^24.12.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.0",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "tsup": "^8.5.1",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.56.1",
+    "vite": "^8.0.0"
+  },
+  "author": "Rachel Kenyani",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "component",
+    "emoji",
+    "reaction",
+    "ui"
+  ],
+  "homepage": "https://github.com/Rachel-Kenyani/React-emoji-reaction-bar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rachel-Kenyani/React-emoji-reaction-bar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rachel-Kenyani/React-emoji-reaction-bar/issues"
+  }
+
+}
