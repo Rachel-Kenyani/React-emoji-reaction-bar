@@ -1,7 +1,7 @@
 {
   "name": "@kenyani/react-emoji-reaction-bar",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -9,9 +9,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "scripts": {
     "dev": "vite",
     "build": "tsup src/index.ts --format esm,cjs --dts",
@@ -55,10 +52,9 @@
   "homepage": "https://github.com/Rachel-Kenyani/React-emoji-reaction-bar",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rachel-Kenyani/React-emoji-reaction-bar.git"
+    "url": "git+https://github.com/Rachel-Kenyani/React-emoji-reaction-bar.git"
   },
   "bugs": {
     "url": "https://github.com/Rachel-Kenyani/React-emoji-reaction-bar/issues"
   }
-
 }
